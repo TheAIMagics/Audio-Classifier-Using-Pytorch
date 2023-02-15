@@ -3,3 +3,4 @@ pandas
 from_root
 soundfile
 joblib
+-e .
