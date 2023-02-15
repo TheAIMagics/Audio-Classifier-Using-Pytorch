@@ -1,0 +1,5 @@
+numpy
+pandas
+from_root
+soundfile
+joblib
