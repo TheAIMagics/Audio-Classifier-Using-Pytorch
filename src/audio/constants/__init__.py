@@ -12,3 +12,10 @@ S3_DATA_FOLDER_NAME: str = "data.zip"
 UNZIPPED_FOLDER_NAME: str = "unzip"
 DATA_DIR_NAME: str = "data"
 
+# constants related to data tranformation
+DATA_TRANSFORMATION_ARTIFACTS_DIR: str = "data_transformation"
+IMAGES_DIR:str = "spectrograms"
+TEST_DIR: str = "test"
+SHUFFLE = True
+PIN_MEMORY = True
+NUM_WORKERS = 0
