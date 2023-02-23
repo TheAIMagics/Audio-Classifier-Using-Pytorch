@@ -32,3 +32,10 @@ WEIGHT_DECAY : float = 1e-4
 IN_CHANNELS: int = 3
 OPTIMIZER = torch.optim.RMSprop
 NUM_CLASSES :int = 2
+
+# constants realted to model evaluation 
+S3_BUCKET_MODEL_URI: str = "s3://speech-classifier/model/"
+MODEL_EVALUATION_DIR: str = "model_evaluation"
+S3_MODEL_DIR_NAME: str = "s3_model"
+S3_MODEL_NAME: str = "model.pt"
+BASE_LOSS: int = 1.00
