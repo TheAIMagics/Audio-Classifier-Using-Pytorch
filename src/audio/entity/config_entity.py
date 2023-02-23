@@ -15,3 +15,9 @@ class DataTransformationConfig:
     data_transformation_artifact_dir: str = os.path.join(from_root(), ARTIFACTS_DIR,DATA_TRANSFORMATION_ARTIFACTS_DIR)
     images_dir = os.path.join(data_transformation_artifact_dir,IMAGES_DIR)
     test_dir = os.path.join(data_transformation_artifact_dir,TEST_DIR)
+
+@dataclass
+class ModelTrainerConfig:
+    model_trainer_artifact_dir: str = os.path.join(from_root(), ARTIFACTS_DIR,MODEL_TRAINER_ARTIFACTS_DIR)
+    model_path: str = os.path.join(model_trainer_artifact_dir,MODEL_NAME )
+    transformer_object_path: str = os.path.join(model_trainer_artifact_dir, TRANSFORM_OBJECT_NAME)

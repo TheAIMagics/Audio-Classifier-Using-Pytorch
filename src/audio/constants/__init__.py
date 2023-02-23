@@ -19,3 +19,16 @@ TEST_DIR: str = "test"
 SHUFFLE = True
 PIN_MEMORY = True
 NUM_WORKERS = 0
+
+# constants related to model training
+MODEL_TRAINER_ARTIFACTS_DIR : str = 'model_training'
+MODEL_NAME: str = "model.pt"
+TRANSFORM_OBJECT_NAME: str = "transform.pkl"
+BATCH_SIZE: int = 15
+EPOCHS: int = 15
+LEARNING_RATE:float = 0.001
+GRAD_CLIP : float = 0.1
+WEIGHT_DECAY : float = 1e-4
+IN_CHANNELS: int = 3
+OPTIMIZER = torch.optim.RMSprop
+NUM_CLASSES :int = 2
