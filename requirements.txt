@@ -3,4 +3,6 @@ pandas
 from_root
 soundfile
 joblib
+flask
+matplotlib
 -e .
